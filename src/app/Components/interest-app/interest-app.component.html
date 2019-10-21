@@ -1,0 +1,7 @@
+<p id="pa">Rate of interest</p>
+<div>
+<h3>enter the principal amount:<input type="number" [(ngModel)]="principal"></h3><br>
+<h3>enter the time period in years:<input type="number" [(ngModel)]="timeperiod"></h3><br>
+<h3>interest rate:<input type="number" [(ngModel)]="rateofinterest"></h3><br>
+<h3><button (click)="process()">get</button></h3><br>
+total interest:<p>{{result}}</p></div>

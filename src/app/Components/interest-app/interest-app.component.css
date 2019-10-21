@@ -1,0 +1,9 @@
+body{
+    background-color: chocolate;
+}
+#pa{
+    color: rgb(39, 56, 87);
+    background-color: crimson;
+    align-self: center;
+    font-size: 50px;
+}
